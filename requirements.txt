@@ -1,0 +1,7 @@
+PyYAML==5.1.1
+Click==7.0
+configobj==5.0.6
+Flask==1.0.2
+gunicorn==19.9.0
+requests==2.22.0
+time_uuid==0.2.0

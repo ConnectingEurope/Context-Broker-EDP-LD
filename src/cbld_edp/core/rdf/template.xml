@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:locn="http://www.w3.org/ns/locn#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+    <dcat:Catalog rdf:about=""> <!-- Mandatory -->
+        <dct:title /> <!-- Mandatory -->
+        <dct:description /> <!-- Mandatory -->
+        <dct:publisher rdf:resource="" /> <!-- Mandatory -->
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG" />
+        <foaf:homepage rdf:resource="" /> <!-- Recommended -->
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" /> <!-- Recommended -->
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" /> <!-- Recommended -->
+        <dcat:themeTaxonomy rdf:resource="http://publications.europa.eu/resource/authority/data-theme" /> <!-- Recommended -->
+        <dcat:dataset rdf:resource="" /> <!-- Mandatory -->
+    </dcat:Catalog>
+    <dcat:Dataset rdf:about=""> <!-- Mandatory -->
+        <dct:title /> <!-- Mandatory -->
+        <dct:description /> <!-- Mandatory -->
+        <dcat:distribution rdf:resource="" /> <!-- Recommended -->
+        <dcat:keyword /> <!-- Recommended -->
+        <dct:publisher rdf:resource="" /> <!-- Recommended -->
+        <dcat:theme rdf:resource="" /> <!-- Recommended -->
+        <dcat:contactPoint> <!-- Recommended -->
+            <vcard:Organization>
+                <vcard:fn />
+                <vcard:hasEmail rdf:resource="" />
+            </vcard:Organization>
+        </dcat:contactPoint>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG" />
+        <dct:accrualPeriodicity rdf:resource="" /> <!-- Optional -->
+        <dct:identifier /> <!-- Optional -->
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" /> <!-- Optional -->
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime" /> <!-- Optional -->
+        <dct:accessRights rdf:resource="" /> <!-- Optional -->
+        <dcat:landingPage rdf:resource="" /> <!-- Optional -->
+        <dct:spatial> <!-- Optional -->
+            <dct:Location>
+                <locn:geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral" />
+                <locn:geometry rdf:datatype="https://www.iana.org/assignments/media-types/application/vnd.geo+json" />
+            </dct:Location>
+        </dct:spatial>
+    </dcat:Dataset>
+    <dcat:Distribution rdf:about=""> <!-- Recommended -->
+        <dcat:accessURL rdf:resource="" /> <!-- Mandatory -->
+        <dct:description /> <!-- Recommended -->
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/FIWARE-CB"/> <!-- Recommended -->
+        <dct:license rdf:resource="" /> <!-- Recommended -->
+        <dct:title /> <!-- Optional -->
+        <dcat:downloadURL rdf:resource="" /> <!-- Optional -->
+    </dcat:Distribution>
+    <foaf:Organization rdf:about=""> <!-- Mandatory -->
+        <foaf:name /> <!-- Mandatory -->
+        <rdf:type rdf:resource=""/> <!-- Recommended -->
+        <foaf:homepage rdf:resource=""/> <!-- Optional -->
+    </foaf:Organization>
+</rdf:RDF>
