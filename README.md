@@ -1,8 +1,10 @@
 # CBLD-EDP
 
-> **NOTICE**: This version has been developed following the NGSI-LD
-> Data Models documentation. However, it could not be tested due the
-> abscence of real linked data context providers.
+> **NOTICE**: This version has been developed following the NGSI-LD Data Models documentation. 
+> For this version, the solution provider made every effort to provide a stable and functional release. 
+> No thorough user testing aside from the development team was conducted due to the absence of real linked data context providers. 
+> There is warranty, expressed or implied, as to the reliability and stability of the solution. 
+> The support team remains available to help on any issue that can be encountered and any feedback is thoroughly appreciated.
 
 CEF Context Broker Linked Data integration with the European Data Portal.
 
