@@ -304,3 +304,11 @@ http://`{your-public-ip-or-dns}`/`{your-custom-route}`/api/status
 
 This project is licensed under the European Union Public License 1.2
 -see the [LICENSE](LICENSE) file for details.
+
+## Contributors
+
+The Context Broker Data Visualisation enabler has been carried out by:
+
+- [CEF Digital](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/CEF+Digital+Home)
+- [everis](https://www.everis.com/)
+- [FIWARE](https://www.fiware.org/)
