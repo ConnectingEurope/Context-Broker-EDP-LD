@@ -307,7 +307,7 @@ This project is licensed under the European Union Public License 1.2
 
 ## Contributors
 
-The Context Broker Data Visualisation enabler has been carried out by:
+The Context Broker - European Data Portal enabler (NGSI-LD) has been carried out by:
 
 - [CEF Digital](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/CEF+Digital+Home)
 - [everis](https://www.everis.com/)
