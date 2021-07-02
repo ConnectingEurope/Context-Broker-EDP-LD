@@ -1,5 +1,7 @@
 # CBLD-EDP
 
+**Please note that support questions will not be monitored during the summer period of July and August. **
+
 > **NOTICE**: This version has been developed following the NGSI-LD Data Models documentation. 
 > For this version, the solution provider made every effort to provide a stable and functional release. 
 > No thorough user testing aside from the development team was conducted due to the absence of real linked data context providers. 
